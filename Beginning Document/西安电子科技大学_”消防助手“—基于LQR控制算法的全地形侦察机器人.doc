@@ -1,0 +1,1054 @@
+﻿<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+    <meta http-equiv="Content-Type" content="application/msword; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西安电子科技大学_”消防助手“—基于LQR控制算法的全地形侦察机器人_2025年04月02日09时06分17秒</title>
+    <!--[if gte mso 9]>
+    <xml>
+    <w:WordDocument>
+    <w:View>Print</w:View>
+    <w:Zoom>100</w:Zoom>
+    <w:DoNotOptimizeForBrowser/>
+    <w:DisplayBackgroundShape/>
+    </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style type="text/css">
+        body.c-word--body {
+            padding: 0;
+            margin: 0;
+            font-family: "Microsoft YaHei", SimHei, SimSun, "Times New Roman", Georgia, Serif;
+        }
+
+        .c-word--empty {
+            text-align: center;
+            font-size: 24px;
+            color: #ddd;
+            padding: 60px 20px;
+        }
+
+        .c-word--title {
+            padding: 9pt 1pt;
+            margin: 0;
+            text-align: center;
+        }
+
+        table.table {
+            width: 100%;
+            margin: 3pt auto;
+            border-collapse: collapse;
+            border-spacing: 1pt;
+        }
+
+        table.table-border {
+            border-collapse: collapse;
+        }
+
+            table.table-border tr th {
+                border: solid windowtext 1pt;
+                border-color: #000;
+                border-width: 1pt;
+            }
+
+            table.table-border tr td {
+                border: solid windowtext 1pt;
+                border-color: #000;
+                border-width: 1pt;
+            }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+    
+    <link href="https://cxcycs.xidian.edu.cn/assets/src/css/Areas/Item/Declare/ExportWord.css" rel="stylesheet" />
+    <link href="https://cxcycs.xidian.edu.cn/assets/src/css/tools/summernote-custom.css" rel="stylesheet" />
+
+    
+    <style>
+    p.MsoFooter, li.MsoFooter, div.MsoFooter {
+        margin: 0in;
+        margin-bottom: 0.001pt;
+        mso-pagination: widow-orphan;
+        tab-stops: center 3.0in right 6.0in;
+        font-size: 12.0pt;
+        font-family: 等线, 宋体,华文细黑,'Microsoft YaHei',仿宋, 黑体;
+    }
+
+    <!-- /* Style Definitions */
+    @page Section1 {
+        size: 8.5in 11.0in;
+        margin: 1.0in 1.0in 1.0in 1.0in;
+        mso-header-margin: 0.5in;
+        mso-footer-margin: 0.5in;
+        mso-title-page: yes;
+        mso-header: page-info-container--header;
+        mso-even-header: page-info-container--header-;
+        mso-footer: page-info-container--footer;
+        mso-first-header: page-info-container--header-;
+        mso-first-footer: page-info-container--footer;
+        mso-paper-source: 0;
+    }
+
+    div.Section1 {
+        page: Section1;
+    }
+
+    table#page-info-container {
+        margin: 0in 0in 0in 900in;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    -->
+</style>
+
+</head>
+<body class="c-word--body">
+    <div>
+        
+
+
+        <div class="Section1">
+            <div class="single-page">
+                <div class="word-logo">
+                </div>
+
+                    <div class="word-title1">
+                        <div>西安电子科技大学大学生创新训练项目计划申请书</div>
+                    </div>
+
+                <div class="word-userinfo-container" style="text-align:center;">
+                    <table class="word-userinfo">
+                        <tbody>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目编号</td>
+                                <td colspan="7" class="c-cell-value">
+                                    X202510701396
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目名称</td>
+                                <td colspan="7" class="c-cell-value">
+                                    ”消防助手“—基于LQR控制算法的全地形侦察机器人
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目负责人</td>
+                                <td colspan="3" class="c-cell-value">
+                                    杨百川
+                                </td>
+                                <td style="width:20%;" class="c-cell-title">联系电话</td>
+                                <td colspan="3" class="c-cell-value">
+                                    19963584449
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">所在学院</td>
+                                <td colspan="7" class="c-cell-value">
+                                    新生书院（新生社区）
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">学号</td>
+                                <td colspan="3" class="c-cell-value">
+                                    24149100251
+                                </td>
+                                <td style="width:20%;" class="c-cell-title">专业班级</td>
+                                <td colspan="3" class="c-cell-value">
+                                    电子信息类（集成电路）
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">指导教师</td>
+                                <td colspan="7" class="c-cell-value">
+                                    杨鹏飞
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">E-mail</td>
+                                <td colspan="7" class="c-cell-value">
+                                    hudddle@outlook.com
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">申请日期</td>
+                                <td colspan="7" class="c-cell-value">
+                                    2024年12月19日
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目期限</td>
+                                <td colspan="7" class="c-cell-value">
+                                    一年期
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="margin:80pt 0 6pt;font-family:黑体,华文细黑;font-size:15.0pt;text-align:center;">
+                    西安电子科技大学 教务处
+                </div>
+            </div>
+            <br clear="all" style="page-break-before:always;" />
+            <div class="single-page">
+                <div class="word-abstract">
+                    <div class="word-abstract-title" style="margin-top:32pt;margin-bottom:32pt;font-weight:600;text-align:center;font-size:18.0pt;font-family:宋体;">
+                        填写说明
+                    </div>
+                        <div class="word-abstract-content" style="margin-top:32pt;">
+                            <ol style="font-family:仿宋,宋体;font-size:15pt;line-height:32pt;">
+                                <li>本申请书所列各项内容均须实事求是，认真填写，表达明确严谨，简明扼要。</li>
+                                <li>申请人可以是个人，也可为创新团队，首页只填负责人。“项目编号”一栏不填。</li>
+                                <li>本申请书为大16开本（A4），左侧装订成册。可网上下载、自行复印或加页，但格式、内容、大小均须与原件一致。</li>
+                                    <li>负责人所在学院认真审核, 经初评和答辩，签署意见后，将申请书（一式两份）报送西安电子科技大学项目管理办公室。</li>
+                            </ol>
+                        </div>
+
+                </div>
+            </div>
+            <br clear="all" style="page-break-before:always;" />
+            <div class="single-page">
+                <!--  一、	基本情况 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        一、	基本情况
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-base-info-table">
+                            <tbody>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">项目名称</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        ”消防助手“—基于LQR控制算法的全地形侦察机器人
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">所属学科</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        <div class="c-cell-content">
+                                            <span>
+                                                <span class="c-title">学科一级类：</span>
+                                                <span class="c-value">工学</span>
+                                            </span>
+                                            <span>&nbsp;</span>
+                                            <span>
+                                                <span class="c-title">学科二级类：</span>
+                                                <span class="c-value">电子信息类</span>
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">项目来源</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        <div class="c-cell-content" style="vertical-align:middle;">
+                                                        <div>
+                                                            □
+                                                            <span>A、学生自主选题，来源于自己对课题的长期积累与兴趣</span>
+                                                        </div>
+                                                        <div>
+                                                            ■
+                                                            <span>B、学生来源于教师科研项目选题</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>C、学生承担社会、企业委托项目选题</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>D、拔尖专项</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>E、竞赛专项</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>F、研修专项</span>
+                                                        </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">申请金额</td>
+                                    <td class="c-cell-value">
+                                                <span>2000.00</span>
+
+                                        <span> 元</span>
+                                    </td>
+                                    <td class="c-cell-title">项目期限</td>
+                                    <td class="c-cell-value">
+                                        一年期
+                                    </td>
+                                    <td class="c-cell-title" colspan="2">拟申报项目级别</td>
+                                    <td class="c-cell-value" colspan="4">
+                                        
+                                    </td>
+                                </tr>
+
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title">负责人</td>
+                                        <td class="c-cell-value" colspan="1" style="width:10%;">
+                                            杨百川
+                                        </td>
+                                        <td style="width:10%;" class="c-cell-title">性别</td>
+                                        <td class="c-cell-value" colspan="1" style="width:5%;">
+                                            男
+                                        </td>
+                                        <td style="width:10%;" class="c-cell-title">民族</td>
+                                        <td class="c-cell-value" colspan="1" style="width:15%;">
+                                            
+                                        </td>
+                                        <td style="width:10%;" class="c-cell-title">出生年月</td>
+                                        <td class="c-cell-value" colspan="3" style="width:50%;text-align:center;">
+                                                    <span>年&nbsp;月</span>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title">学号</td>
+                                        <td colspan="1" class="c-cell-value" style="width:20%;">
+                                            24149100251
+                                        </td>
+                                        <td style="width:5%;" class="c-cell-title">联系电话</td>
+                                        <td colspan="7" class="c-cell-value" style="width:65%;">
+                                            <div class="c-cell-content">
+                                                <span>
+                                                    <span class="c-title">宅：</span>
+                                                    <span class="c-value"></span>
+                                                </span>
+                                                <span>
+                                                    <span class="c-title">手机：</span>
+                                                    <span class="c-value">19963584449</span>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                                <tr>
+                                                    <td style="width:10%;" class="c-cell-title">指导教师</td>
+                                                    <td colspan="1" class="c-cell-value" style="width:20%;">
+                                                        杨鹏飞
+                                                    </td>
+                                                    <td style="width:5%;" class="c-cell-title">联系电话</td>
+                                                    <td colspan="7" class="c-cell-value" style="width:65%;">
+                                                        <div class="c-cell-content">
+                                                            <span>
+                                                                <span class="c-title">宅：</span>
+                                                                <span class="c-value"></span>
+                                                            </span>
+                                                            <span>
+                                                                <span class="c-title">手机：</span>
+                                                                <span class="c-value">13679246797</span>
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title" colspan="2">项目简介</td>
+                                        <td class="c-cell-value" colspan="8" style="width:90%;">
+                                            <div class="c-cell-content">
+                                                “消防助手—基于瓦特连杆的全地形侦察机器人”，是消防领域创新力作。它巧妙融合瓦特连杆技术，赋予机体卓越越障与平衡能力，轻松应对复杂地形，不管是崎岖山地、泥泞洼地，还是狭窄楼道，皆能稳步穿梭。装备精良侦察系统，可实时回传高清影像、精准环境数据，助消防员远程洞察火情、掌握现场态势，为救援决策提供关键依据，宛如消防员的“智能先锋眼”，极大提升消防侦察效率与安全性。
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title" colspan="2">负责人曾经参与科研的情况</td>
+                                        <td class="c-cell-value" colspan="8" style="width:90%;">
+                                            <div class="c-cell-content">
+                                                <div class="note-article--container"><div note-article="paragraph">作为一名大学生，我已然开启了在创新创业课程学习与科研实践中的探索旅程。
+</div><div note-article="paragraph">在创新创业课程方面，我系统修习多门相关课程，像《创新思维与方法导论》《新生研讨导论》等。课上，老师们巧用案例剖析、科普性知识讲解等形式，助我打破常规思维禁锢，理解从创意萌生到商业落地全流程。小组讨论里，围绕“校园智能生活服务”主题，我和伙伴碰撞思维，提出“共享学习空间预订平台”概念，历经市场调研、竞品分析，初涉商业逻辑。
+</div><div note-article="paragraph">科研上，我主动加入学校科研社团，参与基础科研项目辅助工作。于化学专业的“新型环保材料合成性能探究”项目，从最初筛选文献、整理资料，到观摩学长学姐实验操作，逐步熟悉科研步骤。这一过程让我领会到科研严谨魅力，更坚定深入钻研决心，期待后续能主导小型课题，收获成果。</div></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title" colspan="2">指导教师承担科研课题情况</td>
+                                        <td class="c-cell-value" colspan="8" style="width:90%;">
+                                            <div class="c-cell-content">
+                                                <div class="note-article--container"><div note-article="paragraph">指导老师科研课题情况
+</div><div note-article="paragraph">在“消防助手 - 基于瓦特连杆的全地形侦察机器人”项目里，指导老师发挥多方面引领作用。
+</div><div note-article="paragraph">于“瓦特连杆适配消防机器人的运动机理与优化设计”课题中，杨鹏飞老师深挖瓦特连杆在复杂消防地形场景下运动特性，凭借力学原理与计算机模拟，精准剖析连杆长度、连接角度等参数对机器人越障、爬坡、跨越沟壑时平衡及动力传输影响。历经反复试验调整，优化连杆设计，使其助力机器人在废墟瓦砾、崎岖山地高效穿梭，攻克常规结构难以应对地形难题。
+</div><div note-article="paragraph">着眼“消防侦察机器人多模态传感融合与智能识别系统构建”，指导老师统筹各方。整合光学成像、红外热感、气体监测等多元传感器，钻研数据融合算法，解决不同传感数据冲突、冗余问题。借深度学习训练模型，实现对火源、被困人员、危险化学品精准智能识别，提升侦察精准度与效率，让机器人在浓烟弥漫、环境复杂火场“火眼金睛”洞察关键信息。
+</div><div note-article="paragraph">杨鹏飞老师引导我们聚焦“全地形消防侦察机器人的防护与可靠性强化工程”，从耐高温、防撞击、防水防尘多维度着手。筛选适配消防恶劣环境特殊材料，改良外壳、内部电路布局，经模拟火灾现场极端条件冲击测试，持续完善防护设计，保障机器人长时间稳定运行，切实可靠辅助一线消防工作。</div></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:10%;" class="c-cell-title" colspan="2">指导教师对本项目的支持情况</td>
+                                        <td class="c-cell-value" colspan="8" style="width:90%;">
+                                            <div class="c-cell-content">
+                                                <div class="note-article--container"><div note-article="paragraph">指导老师对项目的倾心支持
+</div><div note-article="paragraph">在“消防助手 - 基于瓦特连杆的全地形侦察机器人”项目推进中，指导老师宛如坚实后盾，全方位给予助力。
+</div><div note-article="paragraph">技术攻坚阶段，面对瓦特连杆与机器人机体协同运作的复杂难题，老师凭借深厚机械原理知识，组织研讨、推导力学模型，从连杆安装点位、活动范围精细调整，到适配不同地形的参数优化，逐点剖析，助我们攻克运动失衡、动力损耗问题，让机器人在模拟山地、废墟地形测试里渐趋稳定，成功迈出实用化关键步。
+</div><div note-article="paragraph">研发遇资金瓶颈时，老师积极利用人脉资源，牵线搭桥，帮我们争取学校科研专项拨款、企业赞助，确保耐高温材料、高精度传感器等优质零部件采购到位，维持项目硬件升级不停滞；还协调实验室使用，提供场地测试、设备调试便利，保障实验数据精准获取。
+</div><div note-article="paragraph">当团队对侦察功能规划迷茫，老师引导市场调研，深挖消防实战痛点，据此框定热成像、气体探测等核心传感方向；定期审校技术文档、商业计划书，字斟句酌，提点逻辑瑕疵、内容缺漏，让项目阐述专业清晰，一路为我们点亮前行航灯，托举项目茁壮成长。</div></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="width:5%;" class="c-cell-title" rowspan="4">项目组主要成员</td>
+                                        <td class="c-cell-title" style="width:5%;">姓名</td>
+                                        <td class="c-cell-title" style="width:13%;">学号</td>
+                                        <td class="c-cell-title" style="width:13%;">学院</td>
+                                        <td class="c-cell-title" style="width:13%;">专业班级</td>
+                                        <td class="c-cell-title" style="width:13%;">联系电话</td>
+                                        <td class="c-cell-title" colspan="5" style="width:43%;">项目分工</td>
+                                    </tr>
+                                            <tr class="c-liststudent-tr">
+                                                <td class="c-cell-value">
+                                                    杨百川
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    24149100251
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    新生书院（新生社区）
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    电子信息类（集成电路）
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    19963584449
+                                                </td>
+                                                <td class="c-cell-value" colspan="5">
+                                                    技术负责人，项目规划与领导
+                                                </td>
+                                            </tr>
+                                            <tr class="c-liststudent-tr">
+                                                <td class="c-cell-value">
+                                                    路毅
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    24209100152
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    新生书院（新生社区）
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    计算机科学与技术
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    13287566680
+                                                </td>
+                                                <td class="c-cell-value" colspan="5">
+                                                    创意构思与调研，团队分工与组织
+                                                </td>
+                                            </tr>
+                                            <tr class="c-liststudent-tr">
+                                                <td class="c-cell-value">
+                                                    王子赫
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    24189100070
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    新生书院（新生社区）
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    计算机科学与技术
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    18192107901
+                                                </td>
+                                                <td class="c-cell-value" colspan="5">
+                                                    团队成果展示与推广
+                                                </td>
+                                            </tr>
+
+                                    <tr>
+                                        <td style="width:5%;" class="c-cell-title" rowspan="2">指导教师</td>
+                                        <td class="c-cell-title" style="width:5%;">姓名</td>
+                                        <td class="c-cell-title" style="width:13%;">工号</td>
+                                        <td class="c-cell-title" style="width:13%;">学院/单位</td>
+                                        <td class="c-cell-title" style="width:13%;">职称</td>
+                                        <td class="c-cell-title" style="width:13%;">联系电话</td>
+                                        <td class="c-cell-title" colspan="5" style="width:43%;">电子邮件</td>
+                                    </tr>
+                                            <tr class="c-liststudent-tr">
+                                                <td class="c-cell-value">
+                                                    杨鹏飞
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    6325
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    计算机科学与技术学院
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    副教授
+                                                </td>
+                                                <td class="c-cell-value">
+                                                    13679246797
+                                                </td>
+                                                <td class="c-cell-value" colspan="5">
+                                                    pfyang@xidian.edu.cn
+                                                </td>
+                                            </tr>
+
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  一、	基本情况 结束-->
+                <!--  二、	立项依据（可加页） 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        二、	立项依据（可加页）
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-lxyj-table">
+                            <tr>
+                                <td>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （1）研究目的
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 呼应时代热点与社会痛点：近年来，国内出现多起由于火场情况复杂难以预测、消防人力相对不足等问题而造成的原有小型火灾发展为中大火灾，造成人员伤亡的案例，借助瓦特连杆特殊机械结构可以增强火场消防的控制范围，深入火场内部，帮助消防员运输物资和设备。
+</div><div note-article="paragraph">2. 突破复杂地形侦察局限：传统消防侦察受地形制约，山地、废墟、狭窄楼道等复杂场景人力难深入，借助瓦特连杆特殊机械结构可以赋予机器人卓越越障、爬坡与平衡能力，实现全地形顺畅通行，填补复杂场地火情信息获取空白，第一时间为消防员传递现场状况。
+</div><div note-article="paragraph">3. 提升侦察精准与高效性：集成高清摄像头、红外热成像等多元先进传感设备，对火源精准定位、实时监测火势蔓延，同步识别烟雾中被困人员，多维度数据快速回传，改变传统侦察依赖人眼、经验局限，以科技赋能让消防指挥决策更科学高效。
+</div><div note-article="paragraph">4. 保障消防人员生命安全：代替消防员进入高危区域，远程操控减少一线人员直面高温、浓烟、爆炸风险，尤其在建筑物坍塌、易燃易爆物泄漏等极端危险火情下，充当“先锋兵”，最大程度降低伤亡可能，革新传统高风险侦察作业模式。
+</div><div note-article="paragraph">5. 助力智慧消防体系构建：以自身数据采集、传输、分析功能为基石，融入城市智慧消防网络，为消防资源调配、作战方案拟定提供大数据支撑，推动消防工作从被动应对向主动预防、精准出击转变，完善现代化消防救援生态。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （2）研究内容
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 瓦特连杆适配与优化：深度钻研瓦特连杆力学特性，借助计算机辅助设计与仿真软件，模拟其在消防复杂地形场景下的运动表现。分析连杆尺寸、关节连接形式对机器人越障、爬坡及行走稳定性的作用机制，结合山地、废墟、楼道实地测试反馈，反复调整优化，确保连杆与机器人整体机械架构协同高效，实现全地形稳健通行。
+</div><div note-article="paragraph">2. 摄像头视觉系统构建与智能识别：搭建高清摄像头视觉体系，精心挑选具备宽动态范围、低照度适应能力的镜头及感光元件，确保在浓烟、昏暗等恶劣消防环境下捕捉清晰图像。赋予机器人精准识别火源、被困人员、消防通道标识等关键目标的能力，将视觉数据实时、稳定传输至指挥端。
+</div><div note-article="paragraph">3. 全地形运动控制与导航算法钻研：考量不同地形地貌特点，诸如坡度陡缓、地面起伏、障碍物分布状况，研发适配的运动控制算法。利用传感器融合获取的机器人姿态、速度、位置等信息，实现智能调速、自动避障、最优路径规划等功能。历经模拟场地到实战场景的多轮测试与调校，增强机器人自主行动水平与操控便利性。
+</div><div note-article="paragraph">4. 防护与续航能力提升工程：聚焦防护需求，选用阻燃、抗冲击的防护外壳材料，优化内部结构布局，防范高温烘烤、飞石撞击、灰尘侵入对机器人电子部件、机械组件的损害。同步革新电池技术，设计高效能量管理策略，依据任务强度动态调配电力，延长机器人单次作业续航时长，契合消防长时间侦察任务要求。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （3）国、内外研究现状和发展动态
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">国内发展现状与动态
+</div><div note-article="paragraph">• 瓦特连杆技术应用拓展：瓦特连杆在国内汽车领域应用逐渐增多，如江铃大道和福特游骑侠Ranger等皮卡车型配备多连杆+瓦特连杆后悬架系统，提升了车辆在复杂路况下的行驶稳定性和舒适性。
+</div><div note-article="paragraph">• 侦察机器人功能集成化：国内侦察机器人在功能集成方面发展迅速，除了基本的视频侦察功能外，还融合了红外热成像、智能识别等技术，能够对多种目标进行自动识别和定位，并且可以通过无线通信技术将数据实时传输至控制中心。
+</div><div note-article="paragraph">• 全地形适应能力提升：国内一些侦察机器人采用了履带式、轮式、腿式等多种行走机构，或结合多种机构的优点进行复合式设计，以适应不同的地形环境。同时，通过优化机器人的悬挂系统、底盘结构和动力分配，进一步提高了机器人在复杂地形下的通过性和机动性。
+</div><div note-article="paragraph">国外发展现状与动态
+</div><div note-article="paragraph">• 军事侦察机器人智能化：国外军事侦察机器人发展较为成熟，如以色列的“机器蛇”，可模仿蛇的爬行方式进入复杂地形进行隐蔽侦察；美军的“全球鹰”无人机，能携带多种侦察设备，通过卫星链路实时传回侦察图像，为作战指挥提供重要依据。
+</div><div note-article="paragraph">• 多传感器融合技术深化：国外侦察机器人普遍配备了多种先进的传感器，并且在多传感器融合技术方面不断深化，使机器人能够更全面、准确地感知环境信息，提高侦察效果和决策能力。
+</div><div note-article="paragraph">• 人机协作模式创新：国外一些研究机构和企业正在探索侦察机器人与人的协同作战模式，通过开发先进的人机接口技术和智能决策支持系统，使机器人能够更好地理解人的意图，与人进行高效协作。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （4）项目研究与实施的基础条件
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 专业团队协作：项目组汇聚多学科人才，有机械相关知识的学生负责瓦特连杆优化与机器人机械结构设计，保障全地形移动能力；电子信息专业成员主攻电路集成、传感器搭载与通信模块搭建，实现数据高效传输；计算机专业人员投身视觉识别算法、运动控制编程，赋予机器人“智慧”，各展专长协同推进。
+</div><div note-article="paragraph">2. 科研设施完备：所在学校实验室配备高精度 3D 打印机、数控加工设备，能依设计快速制作、改良机器人机械零件；示波器、信号发生器等电子测试仪器齐全，助于电路检测调试；拥有算力强劲服务器，支持深度学习模型训练，为算法优化筑牢硬件根基。
+</div><div note-article="paragraph">3. 指导力量雄厚：校内导师长期钻研机器人、消防工程领域，经验丰富，可在技术瓶颈攻克、理论研究深化上精准指导；还外聘消防一线专家，凭借实战洞察，把控项目侦察功能契合实战需求，助力产品实用性打磨。
+</div><div note-article="paragraph">4. 资料数据充足：学校图书馆藏海量机械原理、自动化控制、消防救援学术典籍，数据库涵盖前沿科研论文，提供理论支撑；与消防部门合作紧密，获大量真实火场影像、环境参数等资料，为视觉识别训练、场景模拟夯实数据基础。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （5）项目实施方案
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">第一阶段：筹备规划（第 1 - 2 个月）
+</div><div note-article="paragraph">1. 组建团队分工：依据成员专长，划分机械设计、电子控制、算法研发、测试评估等小组，明确职责，制定详细工作流程与沟通机制。
+</div><div note-article="paragraph">2. 资料收集调研：查阅国内外消防侦察机器人、瓦特连杆应用文献，分析竞品优缺点；赴消防部门调研实战需求，收集典型复杂地形与火灾场景数据。
+</div><div note-article="paragraph">第二阶段：设计研发（第 3 - 7 个月）
+</div><div note-article="paragraph">1. 机械结构设计：运用力学原理与仿真软件，设计适配瓦特连杆的机器人底盘、外壳，确定连杆参数与安装方式，经 3D 打印、手工样件制作验证，反复修改至满足全地形通过要求。
+</div><div note-article="paragraph">2. 传感与电控系统：挑选高清摄像头、红外热成像仪等传感器，设计匹配电路与控制板，编写底层驱动代码，实现传感器数据采集、传输，与上位机通信稳定，能远程操控机器人动作。
+</div><div note-article="paragraph">3. 算法编写优化：基于深度学习框架，利用消防场景数据集训练目标识别算法；开发运动控制算法，经模拟环境测试，不断调整参数，实现机器人自主避障、路径规划等智能功能。
+</div><div note-article="paragraph">第三阶段：集成测试（第 8 - 9 个月）
+</div><div note-article="paragraph">1. 系统集成组装：将机械、传感、电控部分整合，严格按工艺规范组装机器人，调试各部件协同工作状态，确保连接稳固、信号流畅。
+</div><div note-article="paragraph">2. 测试方案执行：先在室内模拟场地测试机器人基本性能，再赴户外模拟山地、废墟、楼道等复杂地形，检验越障、续航、侦察精准度，记录问题，深度剖析根源。
+</div><div note-article="paragraph">第四阶段：优化改进（第 10 - 11 个月）
+</div><div note-article="paragraph">1. 针对性优化：依据测试反馈，改良机械结构薄弱处、升级算力不足硬件、完善算法漏洞，提升机器人稳定性、响应速度与识别准确率。
+</div><div note-article="paragraph">2. 可靠性强化：模拟高温、浓烟、震动等极端消防工况，进行多轮耐久性测试，调整防护设计与散热方案，确保机器人能长时间可靠运行。
+</div><div note-article="paragraph">第五阶段：成果验收（第 12 个月）
+</div><div note-article="paragraph">1. 项目总结整理：梳理技术文档、测试报告、使用手册，制作项目展示视频与汇报材料，全面展示研发历程与成果。
+</div><div note-article="paragraph">2. 专家评审验收：邀请消防、机器人领域专家现场观摩机器人演示，汇报项目情况，依专家意见完善成果，准备推广应用事宜。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （6）创新点与项目特色
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 瓦特连杆赋能全地形适应：创新性引入瓦特连杆结构，突破传统消防侦察机器人地形限制。经独特力学设计与参数优化，巧妙平衡与分配机器人在崎岖山地、废墟瓦砾、狭窄楼道行走时的受力，实现卓越越障、爬坡与平稳通行能力，填补复杂地形火情侦察空白。
+</div><div note-article="paragraph">2. 精准视觉侦察体系：依托先进摄像头视觉技术，构建高精准侦察系统。高清镜头搭配智能图像识别算法，在浓烟、昏暗光线等恶劣消防环境下，高效捕捉、精准识别火源、被困人员与关键救援标识，为指挥端提供直观清晰、可靠及时的现场信息，革新传统依赖人眼侦察局限。
+</div><div note-article="paragraph">3. 多元技术深度融合协同：打破学科壁垒，将机械、电子、计算机视觉等多领域技术无缝融合。机械保障运动，电子实现数据交互，视觉赋予“感知”，各环节紧密配合、互为支撑，如运动姿态实时反馈优化视觉识别精度，多技术协同铸就高性能侦察机器人，远超单一技术叠加效果。
+</div><div note-article="paragraph">4. 贴合实战的定制化设计：紧密围绕消防实战痛点开展设计，从防护层面选耐高温、抗撞击材料打造外壳，抵御火场恶劣；于操作维度，设计简易远程操控界面与智能辅助功能，降低消防员使用门槛，确保在紧急复杂救援中迅速上手、稳定发挥，实用性与适配性领先。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （7）技术路线、拟解决的问题及预期成果
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">技术路线
+</div><div note-article="paragraph">1. 机械结构设计与优化：以瓦特连杆为核心，基于力学原理开展理论建模，运用仿真软件模拟不同工况下连杆与机器人底盘协同运动情况，确定最佳连杆参数（长度、铰接点位置等）。制作多版样件进行实地地形测试（山地、废墟模拟场地），依据机器人通过性、稳定性表现持续改进，直至满足全地形移动严苛要求。
+</div><div note-article="paragraph">2. 传感及电控系统集成：筛选契合消防侦察的高清摄像头、红外热成像仪，设计适配的传感器安装结构与电路连接方案，保障信号稳定传输。开发专用控制电路板，集成微处理器、通信模块等，编写底层驱动代码实现对传感器数据采集、机器人动作控制，经反复调试达高效协同。
+</div><div note-article="paragraph">3. 智能算法研发完善：收集海量消防场景图像、视频数据，标注火源、被困人员等目标构建训练集，利用深度学习框架训练目标识别算法，优化模型提高识别准确率与速度；同步，基于机器人运动学、动力学，结合传感器反馈数据编写全地形运动控制算法，实现自主避障、路径规划，在模拟与实战场景交替测试中优化算法性能。
+</div><div note-article="paragraph">拟解决的问题
+</div><div note-article="paragraph">1. 复杂地形通行难题：攻克瓦特连杆与机器人整体机械适配难点，解决传统轮式、履带式结构在极端地形易卡顿、倾覆问题，保障机器人在复杂消防场地灵活穿梭，稳定传输侦察数据。
+</div><div note-article="paragraph">2. 恶劣环境侦察精度低：应对浓烟、高温、光线昏暗等恶劣消防条件，优化摄像头与热成像仪参数配置、图像增强算法，提升目标识别精度，让机器人“火眼金睛”，不错判、漏判关键信息。
+</div><div note-article="paragraph">3. 系统协同与操控性欠佳：化解机械、传感、算法多系统间数据交互延迟、指令冲突问题，设计简洁直观远程操控界面，融入智能辅助操作功能（如一键返航、自动巡航），降低操控难度，确保消防员随心驾驭。
+</div><div note-article="paragraph">预期成果
+</div><div note-article="paragraph">1. 实体机器人样机：成功研制出多台“消防助手 - 基于瓦特连杆的全地形侦察机器人”，性能达设计指标，能在各类模拟消防场地稳定作业，为后续实战应用奠基。
+</div><div note-article="paragraph">2. 技术报告与论文：撰写详细技术报告，涵盖设计原理、优化过程、测试数据等；团队在核心期刊发表学术论文，分享创新成果，提升项目影响力与学术价值。
+</div><div note-article="paragraph">3. 应用推广方案：结合消防部门试用反馈，制定面向市场的推广方案，包含产品操作手册、维护指南、适配场景说明，助力产品规模化应用，革新消防侦察模式。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （8）项目研究进度安排
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 第 1 - 2 个月：需求调研与规划筹备
+</div><div note-article="paragraph">• 深入消防一线，与消防员交流、实地勘察火灾常发复杂场地，收集实战对侦察机器人功能、性能需求。
+</div><div note-article="paragraph">• 组建跨学科项目团队，明确分工；研究瓦特连杆技术资料，制定项目整体规划与技术路线图。
+</div><div note-article="paragraph">2. 第 3 - 5 个月：机械结构设计与搭建
+</div><div note-article="paragraph">• 基于调研数据，运用力学软件建模分析，开展机器人底盘、外壳及瓦特连杆设计，确定材料与尺寸。
+</div><div note-article="paragraph">• 借助 3D 打印、数控加工制作零件，组装机械部分，在模拟简单地形场地测试，调整结构稳定性与灵活性。
+</div><div note-article="paragraph">3. 第 6 - 7 个月：传感与电控系统集成
+</div><div note-article="paragraph">• 挑选高分辨率摄像头、红外热成像仪，设计电路布局，完成传感器与控制主板焊接、调试，确保数据正常采集、传输。
+</div><div note-article="paragraph">• 编写底层驱动代码，实现对机器人动力、转向等基础动作遥控，初步测试系统响应及时性。
+</div><div note-article="paragraph">4. 第 8 - 9 个月：智能算法开发与融合
+</div><div note-article="paragraph">• 收集消防场景图像、视频，标注目标构建数据集，利用深度学习训练视觉识别算法，提升识别准确率。
+</div><div note-article="paragraph">• 结合机器人运动学，编写全地形运动控制算法，嵌入传感器数据反馈机制，在模拟复杂环境测试，优化算法参数。
+</div><div note-article="paragraph">5. 第 10 - 11 个月：综合测试与优化改进
+</div><div note-article="paragraph">• 整合机械、传感、算法，进行整机性能测试，模拟山地、废墟、浓烟等极端消防场景，记录问题。
+</div><div note-article="paragraph">• 针对测试故障、性能短板，优化机械结构、升级硬件、完善算法，增强机器人可靠性、适应性。
+</div><div note-article="paragraph">6. 第 12 个月：成果验收与总结推广
+</div><div note-article="paragraph">• 整理项目技术文档、测试报告、使用手册，制作展示视频，邀请专家评审验收，展示机器人实战演示。
+</div><div note-article="paragraph">• 根据验收意见整改，制定产品推广计划，与消防部门、相关企业对接，筹备市场推广事宜。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                        <div class="c-lxyj">
+                                                            <h4 class="c-lxyj-title">
+                                                                （9）已有基础
+                                                            </h4>
+                                                            <div class="c-lxyj-content">
+                                                                        <div class="c-lxyj-sub">
+                                                                            <div class="c-lxyj-sub-title">1.与本项目有关的研究积累和已取得的成绩</div>
+                                                                            <div class="c-lxyj-sub-contet">
+                                                                                <div class="note-article--container"><div note-article="paragraph">1. 技术理论储备深厚：团队成员跨机械、电子、计算机多学科，在校系统研习专业课程，掌握力学原理、自动控制、图像识别等知识，为项目筑牢理论根基。前期深挖瓦特连杆运动特性，经力学建模明晰其在复杂地形平衡、传力优势，积累设计优化技术资料。
+</div><div note-article="paragraph">2. 实验室资源支撑有力：依托学校完备实验室，利用高精度 3D 打印机、数控加工设备，多次制作改良机器人机械样件，验证设计构想；示波器、逻辑分析仪等助于电控系统精细调试，保障信号、电路稳定；算力充足服务器加速深度学习算法训练，迭代视觉与运动控制模型。
+</div><div note-article="paragraph">3. 实践测试初显成效：已在模拟场地开展多轮测试，机械结构经改良，瓦特连杆协同底盘，成功跨越超 30°斜坡、半米高障碍，在模拟废墟地形行走平稳，越障能力显著提升；传感系统回传图像清晰，视觉识别算法能在浓烟模拟下识别火源，准确率超 80%，运动控制实现基本避障，为后续精调铺就良好开端。</div></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj-sub">
+                                                                            <div class="c-lxyj-sub-title">2.已具备的条件，尚缺少的条件及解决方法</div>
+                                                                            <div class="c-lxyj-sub-contet">
+                                                                                <div class="note-article--container"><div note-article="paragraph">资金投入方面
+</div><div note-article="paragraph">• 短缺状况：项目后续测试用的专业模拟火灾场地租赁、高规格消防环境模拟设备购置，以及机器人批量制作零部件采购等，都需大额资金，目前项目经费尚有缺口。
+</div><div note-article="paragraph">• 解决途径：积极申请学校创新创业专项补贴、科研成果转化基金；与消防器材企业洽谈合作，争取其以赞助换产品试用权、优先合作权。
+</div><div note-article="paragraph">实战数据方面
+</div><div note-article="paragraph">• 短缺状况：真实火场的环境复杂多变，目前仅有模拟场景数据，缺少大量不同类型实际火灾（如森林火灾、化工火灾等）现场的火势走向、烟雾浓度与成分、地形破坏情况等一手数据，不利于算法极致优化。
+</div><div note-article="paragraph">• 解决途径：与本地消防部门建立深度合作，在保障安全、不干扰救援前提下，跟随出勤获取脱敏数据；搭建与消防指挥系统的数据共享接口，合法依规收集过往火灾案例存档数据辅助研究。
+</div><div note-article="paragraph">专业指导方面
+</div><div note-article="paragraph">• 短缺状况：在将机器人与消防实战指挥系统深度对接、契合消防战术协同作业上，缺乏兼具消防高层指挥经验与前沿科技知识的专家持续指导，影响产品实用性提升。
+</div><div note-article="paragraph">• 解决途径：邀请退休资深消防指挥官担任项目顾问，定期咨询；参与消防系统高端学术研讨会、行业论坛，建立人脉，争取与领域权威专家结对帮扶指导，拓宽项目视野与实战适配性。</div></div>
+                                                                            </div>
+                                                                        </div>
+
+                                                            </div>
+                                                        </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!--  二、	立项依据（可加页） 结束-->
+                <!--  三、	经费预算 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        三、	经费预算
+                    </h4>
+                    <div class="c-base-info-content">
+                                            <table class="c-jfys-table">
+                                                <thead>
+                                                    <tr class="text-center">
+                                                        <th rowspan="2">
+                                                            开支科目
+                                                        </th>
+                                                        <th rowspan="2">
+                                                            预算经费（元）
+                                                        </th>
+                                                        <th rowspan="2">
+                                                            主要用途
+                                                        </th>
+                                                        <th colspan="2">
+                                                            阶段下达经费计划（元）
+                                                        </th>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <th>前半阶段</th>
+                                                        <th>后半阶段</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        预算经费总额
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        2000.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        进行产品研发与测试，以及技术更新迭代
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1075.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        925.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        1. 业务费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        用于在实践过程中的间接支出
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        225.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        275.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （1）计算、分析、测试费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        200.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        交付第三方进行设备检测与机器的在不同情形下的测试
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        150.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （2）能源动力费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        150.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        机器人能源与实践研究资源费用
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        75.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        75.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （3）会议、差旅费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        实践的组织实现
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （4）文献检索费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        资料查阅，知识版权付费，资料学习
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        0.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （5）论文出版费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        0.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        无
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        0.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        0.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        2. 仪器设备购置费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        400.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        购置机器人性能测试设备，完成场地搭建
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        300.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        3. 实验装置试制费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        进行实验对象的模型搭建和初步测试
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        4. 材料费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1000.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        机器人制作与装配
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                </tr>
+                                                            <tr class="text-center">
+                                                                <td>
+                                                                    <b>学校拨款</b>
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="text-center">
+                                                                <td>
+                                                                    <b>财政拨款</b>
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    
+                                                                </td>
+                                                            </tr>
+
+                                                </tbody>
+                                            </table>
+
+                    </div>
+                </div>
+                <!--  三、	经费预算 结束-->
+                <!--  四、	项目组成员签名 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        四、	项目组成员签名
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  四、	项目组成员签名 结束-->
+                <!--  五、	指导教师意见 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        五、	指导教师意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                        <div class="c-yijian-content">
+                                                            
+                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>导师（签章）：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  五、	指导教师意见 结束-->
+                <!--  六、	院系推荐意见  开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        六、	院系推荐意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                        <div class="c-yijian-content">
+                                                            <ul>
+                                                                        <li>
+                                                                            通过。2025计科大创QQ群号：946363709，后面有关大创项目的答辩、报销等通知会在QQ群发布。大家进群后需修改群昵称：项目名称+姓名。
+                                                                        </li>
+
+                                                            </ul>
+                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>盖   章：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  六、	院系推荐意见  结束-->
+                <!--  七、	学校推荐意见   开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        七、	学校推荐意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>盖   章：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  七、	学校推荐意见   结束-->
+            </div>
+        </div>
+        <div>
+            <table id="page-info-container" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <div style="mso-element:header;" id="page-info-container--header">
+                            <p class="MsoHeader">
+
+                                    <img src="https://cxcycs.xidian.edu.cn/assets/img/item_declare_exportword_schoollogo_header.png" width="180" height="45" data-command="title" />
+
+
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="mso-element:footer;" id="page-info-container--footer">
+                            <p class="MsoFooter" style="text-align:center;">
+                                <span style="mso-field-code:PAGE"><span style="mso-no-proof:yes"></span></span> / <span style="mso-field-code:NUMPAGES"></span>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+</html>
